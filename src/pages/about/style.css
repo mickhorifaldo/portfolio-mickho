@@ -11,40 +11,24 @@
     border-color: var(--text-color) !important;
 }
 
-.progress-title {
-    font-size: 16px;
-    font-weight: 700;
-    margin: 15px 0 20px;
-    font-family: 'Raleway';
+.skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Spasi antara gambar */
 }
 
-.progress {
-    height: 5px;
-    background: var(--secondary);
-    border-radius: 0;
-    box-shadow: none;
-    margin-bottom: 30px;
-    overflow: visible;
+.skill-item {
+    width: 100px; /* Sesuaikan lebar sesuai kebutuhan Anda */
+    height: 100px; /* Sesuaikan tinggi sesuai kebutuhan Anda */
+    margin: 14px;
 }
 
-.progress .progress-bar {
-    position: relative;
-    background: var(--text-color);
-    animation: animate-positive 2s;
-    overflow: visible;
-    opacity: 0.9;
+.skill-logo {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
 }
-
-.progress .progress-value {
-    position: absolute;
-    top: -30px;
-    right: 8px;
-    font-size: 17px;
-    font-weight: bold;
-    font-style: italic;
-    color: var(--text-color);
-}
-
 @-webkit-keyframes animate-positive {
     0% {
         width: 0%;
