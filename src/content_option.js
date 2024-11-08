@@ -26,7 +26,7 @@ const introdata = {
         third: "I develop mobile apps",
     },
     description: "Passionate student developer turning ideas into reality through code. Specializing in web and mobile app development, I bring fresh perspectives and innovative solutions to every project.",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    your_img_url: "https://i.ibb.co.com/LxT38x9/mickho.jpg",
 };
 
 const dataabout = {
